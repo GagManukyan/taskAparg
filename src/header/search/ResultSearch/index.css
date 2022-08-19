@@ -1,0 +1,38 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    width: 180px;
+    height: 160px;
+
+
+    flex-direction: column;
+    margin: 26px;
+}
+.productImg{
+    cursor: pointer;
+}
+.baskets{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.basket{
+    background-color: #0008C1;
+    width: 25%;
+    height: 100px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    font-family: "Bookman Old Style";
+    cursor: pointer;
+}
+
+
